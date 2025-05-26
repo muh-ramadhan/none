@@ -13,3 +13,4 @@
 :foreach i in=[find where address="10.0.10.6" and list="ISOLIR"] do={ set $i disabled=yes }
 :foreach i in=[find where address="10.0.10.8" and list="ISOLIR"] do={ set $i disabled=yes }
 :foreach i in=[find where address="10.0.10.11" and list="ISOLIR"] do={ set $i disabled=no }
+:foreach i in=[find where address="10.0.5.13" and list="ISOLIR"] do={ set $i disabled=no }
