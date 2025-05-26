@@ -16,7 +16,7 @@
 #ERNA
 :foreach i in=[find where address="10.0.6.5" and list="ISOLIR"] do={ set $i disabled=yes }
 #M-FARIS
-:foreach i in=[find where address="10.0.9.2" and list="ISOLIR"] do={ set $i disabled=no }
+:foreach i in=[find where address="10.0.9.2" and list="ISOLIR"] do={ set $i disabled=yes }
 #IHSAN
 :foreach i in=[find where address="10.0.10.1" and list="ISOLIR"] do={ set $i disabled=yes }
 #AMMAR
