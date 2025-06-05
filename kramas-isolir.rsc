@@ -28,4 +28,4 @@
 #DIVA
 :foreach i in=[find where address="10.0.10.11" and list="ISOLIR"] do={ set $i disabled=yes }
 #WIFI COBA
-:foreach i in=[find where address="10.0.5.13" and list="ISOLIR"] do={ set $i disabled=no }
+:foreach i in=[find where address="10.0.0.55" and list="ISOLIR"] do={ set $i disabled=no }
