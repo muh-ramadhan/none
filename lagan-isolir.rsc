@@ -20,4 +20,4 @@
 #MODEM 10
 :foreach i in=[find where address="10.5.0.5" and list="ISOLIR"] do={ set $i disabled=yes }
 #MODEM TES
-:foreach i in=[find where address="10.0.5.13" and list="ISOLIR"] do={ set $i disabled=no }
+:foreach i in=[find where address="10.0.0.55" and list="ISOLIR"] do={ set $i disabled=no }
