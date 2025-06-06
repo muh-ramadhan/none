@@ -16,7 +16,7 @@
 #MODEM 8
 :foreach i in=[find where address="10.5.0.3" and list="ISOLIR"] do={ set $i disabled=yes }
 #MODEM 9
-:foreach i in=[find where address="10.5.0.4" and list="ISOLIR"] do={ set $i disabled=no }
+:foreach i in=[find where address="10.5.0.4" and list="ISOLIR"] do={ set $i disabled=yes }
 #MODEM 10
 :foreach i in=[find where address="10.5.0.5" and list="ISOLIR"] do={ set $i disabled=yes }
 #MODEM TES
