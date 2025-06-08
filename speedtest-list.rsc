@@ -205,3 +205,6 @@ add address=wifiman.com disabled=no dynamic=no list=SPEEDTEST
 add address=speedtest.its.ac.id disabled=no dynamic=no list=SPEEDTEST
 add address=speed.cloudflare.com disabled=no dynamic=no list=SPEEDTEST
 add address=speedtest.unair.ac.id disabled=no dynamic=no list=SPEEDTEST
+add address=www.fireprobe.net disabled=no dynamic=no list=SPEEDTEST
+add address=speedtest.cesnet.cz disabled=no dynamic=no list=SPEEDTEST
+
