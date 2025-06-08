@@ -1,10 +1,4 @@
 /ip firewall address-list
-add address=speedtest.net disabled=no dynamic=no list=SPEEDTEST
-add address=www.speedtest.net disabled=no dynamic=no list=SPEEDTEST
-add address=www.nperf.com disabled=no dynamic=no list=SPEEDTEST
-add address=nperf.com disabled=no dynamic=no list=SPEEDTEST
-add address=speed.measurementlab.net disabled=no dynamic=no list=SPEEDTEST
-add address=openspeedtest.com disabled=no dynamic=no list=SPEEDTEST
 add address=yougetsignal.com disabled=no dynamic=no list=SPEEDTEST
 add address=xmyip.com disabled=no dynamic=no list=SPEEDTEST
 add address=expressvpn.com disabled=no dynamic=no list=SPEEDTEST
@@ -27,7 +21,6 @@ add address=www.ipchicken.com disabled=no dynamic=no list=SPEEDTEST
 add address=bittrex.com disabled=no dynamic=no list=SPEEDTEST
 add address=whatismyip.li disabled=no dynamic=no list=SPEEDTEST
 add address=www.ipburger.com disabled=no dynamic=no list=SPEEDTEST
-add address=cbn.net.id disabled=no dynamic=no list=SPEEDTEST
 add address=www.inmotionhosting.com disabled=no dynamic=no list=SPEEDTEST
 add address=nordvpn.com disabled=no dynamic=no list=SPEEDTEST
 add address=wolframalpha.com disabled=no dynamic=no list=SPEEDTEST
@@ -201,10 +194,29 @@ add address=speedtest.turbo.net.id disabled=no dynamic=no list=SPEEDTEST
 add address=speedtest.routelink.net.id disabled=no dynamic=no list=SPEEDTEST
 add address=www.whatismyip.net disabled=no dynamic=no list=SPEEDTEST
 add address=35.81.206.194 disabled=no dynamic=no list=SPEEDTEST
-add address=wifiman.com disabled=no dynamic=no list=SPEEDTEST
-add address=speedtest.its.ac.id disabled=no dynamic=no list=SPEEDTEST
-add address=speed.cloudflare.com disabled=no dynamic=no list=SPEEDTEST
-add address=speedtest.unair.ac.id disabled=no dynamic=no list=SPEEDTEST
-add address=www.fireprobe.net disabled=no dynamic=no list=SPEEDTEST
-add address=speedtest.cesnet.cz disabled=no dynamic=no list=SPEEDTEST
-
+add address=speedtest.its.ac.id comment=speedtest.its.ac.id disabled=no dynamic=no list=SPEEDTEST
+add address=speedtest.unair.ac.id comment=speedtest.unair.ac.id disabled=no dynamic=no list=\
+    SPEEDTEST
+add address=www.fireprobe.net comment=www.fireprobe.net disabled=no dynamic=no list=SPEEDTEST
+add address=speedtest.cesnet.cz comment=speedtest.cesnet.cz disabled=no dynamic=no list=SPEEDTEST
+add address=52.88.38.109 comment=wifiman.com disabled=no dynamic=no list=SPEEDTEST
+add address=52.43.79.49 comment=wifiman.com disabled=no dynamic=no list=SPEEDTEST
+add address=35.80.126.251 comment=wifiman.com disabled=no dynamic=no list=SPEEDTEST
+add address=wifiman.com comment=wifiman.com disabled=no dynamic=no list=SPEEDTEST
+add address=speed.cloudflare.com comment=speed.cloudflare.com disabled=no dynamic=no list=\
+    SPEEDTEST
+add address=www.speedtest.net comment=speedtest.net disabled=no dynamic=no list=SPEEDTEST
+add address=speedtest.net comment=speedtest.net disabled=no dynamic=no list=SPEEDTEST
+add address=cbn.net.id comment=cbn.net.id disabled=no dynamic=no list=SPEEDTEST
+add address=nperf.com comment=nperf.com disabled=no dynamic=no list=SPEEDTEST
+add address=www.nperf.com comment=nperf.com disabled=no dynamic=no list=SPEEDTEST
+add address=openspeedtest.com comment=openspeedtest.com disabled=no dynamic=no list=SPEEDTEST
+add address=speed.measurementlab.net comment=speed.measurementlab.net disabled=no dynamic=no \
+    list=SPEEDTEST
+add address=52.12.134.97 comment=fast.com disabled=no dynamic=no list=SPEEDTEST
+add address=44.236.74.109 comment=fast.com disabled=no dynamic=no list=SPEEDTEST
+add address=52.41.166.128 comment=fast.com disabled=no dynamic=no list=SPEEDTEST
+add address=35.161.104.116 comment=fast.com disabled=no dynamic=no list=SPEEDTEST
+add address=54.69.47.224 comment=fast.com disabled=no dynamic=no list=SPEEDTEST
+add address=noc.kemendikdasmen.go.id comment=noc.kemendikdasmen.go.id disabled=no dynamic=no \
+    list=SPEEDTEST
