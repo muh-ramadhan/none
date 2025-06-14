@@ -1,23 +1,23 @@
 /ip firewall address-list
 #MODEM 1
 :foreach i in=[find where address="10.10.0.1" and list="ISOLIR"] do={ set $i disabled=yes }
-#MODEM 2
+#HARYADI
 :foreach i in=[find where address="10.10.0.2" and list="ISOLIR"] do={ set $i disabled=yes }
-#MODEM 3
+#RANI RINI
 :foreach i in=[find where address="10.10.0.3" and list="ISOLIR"] do={ set $i disabled=yes }
-#MODEM 4
+#LEBAK
 :foreach i in=[find where address="10.10.0.4" and list="ISOLIR"] do={ set $i disabled=yes }
 #MODEM 5
 :foreach i in=[find where address="10.10.0.5" and list="ISOLIR"] do={ set $i disabled=yes }
-#MODEM 6
+#WAHYU
 :foreach i in=[find where address="10.5.0.1" and list="ISOLIR"] do={ set $i disabled=yes }
 #MODEM 7
 :foreach i in=[find where address="10.5.0.2" and list="ISOLIR"] do={ set $i disabled=yes }
-#MODEM 8
+#PUPUT
 :foreach i in=[find where address="10.5.0.3" and list="ISOLIR"] do={ set $i disabled=yes }
-#MODEM 9
+#BIMA
 :foreach i in=[find where address="10.5.0.4" and list="ISOLIR"] do={ set $i disabled=yes }
-#MODEM 10
+#QUMAI
 :foreach i in=[find where address="10.5.0.5" and list="ISOLIR"] do={ set $i disabled=yes }
 #MODEM TES
 :foreach i in=[find where address="10.0.0.55" and list="ISOLIR"] do={ set $i disabled=no }
