@@ -6,7 +6,7 @@
 #RANI RINI
 :foreach i in=[find where address="10.10.0.3" and list="ISOLIR"] do={ set $i disabled=no }
 #LEBAK
-:foreach i in=[find where address="10.10.0.4" and list="ISOLIR"] do={ set $i disabled=no }
+:foreach i in=[find where address="10.10.0.4" and list="ISOLIR"] do={ set $i disabled=yes }
 #MODEM 5
 :foreach i in=[find where address="10.10.0.5" and list="ISOLIR"] do={ set $i disabled=yes }
 #WAHYU
