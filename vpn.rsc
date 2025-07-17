@@ -1,5 +1,5 @@
 /interface l2tp-client set l2tp-out1 \
-    connect-to=public-vpn-222.opengw.net \
+    connect-to=n26.opengw.net \
     user=vpn \
     password=vpn \
     use-ipsec=yes \
