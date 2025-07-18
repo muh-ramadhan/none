@@ -10,7 +10,7 @@
 #MODEM 5
 :foreach i in=[find where address="10.10.0.5" and list="ISOLIR"] do={ set $i disabled=yes }
 #WAHYU
-:foreach i in=[find where address="10.5.0.1" and list="ISOLIR"] do={ set $i disabled=no }
+:foreach i in=[find where address="10.5.0.1" and list="ISOLIR"] do={ set $i disabled=yes }
 #MODEM 7
 :foreach i in=[find where address="10.5.0.2" and list="ISOLIR"] do={ set $i disabled=yes }
 #PUPUT
