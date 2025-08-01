@@ -1,6 +1,6 @@
 /interface l2tp-client set l2tp-out1 \
-    connect-to=n26.opengw.net \
-    user=vpn \
-    password=vpn \
+    connect-to=usp-1.optnl.com \
+    user=opentunnel.net-lgn99 \
+    password=lgn99 \
     use-ipsec=yes \
-    ipsec-secret=vpn
+    ipsec-secret=opentunnel.net
